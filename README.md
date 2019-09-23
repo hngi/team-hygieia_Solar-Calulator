@@ -3,7 +3,7 @@ Hygieia Solar Calculator is a web application that allows users to calculate how
 
 Users enter details of their electronic appliances and Hygieia app calculates how much solar power they need to run their electronic appliances.
 
-## Prereequisites
+## Prerequisites
 *
 *
 
