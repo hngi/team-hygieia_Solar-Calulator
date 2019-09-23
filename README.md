@@ -15,7 +15,7 @@ Users enter details of their electronic appliances and Hygieia app calculates ho
 *
 
 ## Screenshot
-[hygieia solar calculator home](https://github.com/segunfrancis/team-hygieia_Solar-Calulator/blob/master/solar-calc-screenshot.png)
+![hygieia solar calculator home](https://github.com/segunfrancis/team-hygieia_Solar-Calulator/blob/master/solar-calc-screenshot.png)
 
 ## Authors
 *
