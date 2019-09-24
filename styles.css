@@ -1,0 +1,89 @@
+body{
+    
+}
+
+.calculator{
+    background-image: url(solarbk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-brand{
+    margin-left: 140px;
+}
+
+.color-B{
+    color: #6BF169;
+    font-weight: ;
+    font-size: 140%;
+}
+
+.nav{
+    margin-right: 140px;
+}
+
+.nav-link{
+    color: white;
+    font-size: 110%;
+}
+
+.todoHead{
+    color: #6BF169;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-size: 200%;
+}
+
+.horizontal{
+    height: 1px;
+    border: none;
+    border-color: #618461;
+    background-color: #618461;
+    color: #618461;
+    width: 67%;
+}
+
+.wattRating{
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 120%;
+}
+
+label{
+    margin-top: 10px;
+}
+
+#inputState{
+    margin: 20px 50px;
+}
+
+.description h4{
+    color: #618461;
+    margin-top: 200px;
+    font-size: 180%;
+}
+
+.description p{
+    color: #F5F5F5;
+    font-size: 120%;
+    margin-top: 20px;
+}
+
+.horizontal-two{
+    height: 1px;
+    border: none;
+    border-color: #618461;
+    background-color: #618461;
+    color: #618461;
+    width: 100%;
+}
+
+.amp-opt{
+    color: #F5F5F5;
+    position: relative;
+    top: 120px;
+}
