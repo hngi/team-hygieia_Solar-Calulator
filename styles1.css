@@ -1,0 +1,22 @@
+.ampsRating{
+        color: #F5F5F5;
+        text-align: center;
+        font-size: 110%;
+}
+
+.voltsRating{
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 110%;
+}
+
+label{
+    margin: 0;
+    padding: 0;
+}
+
+.watt-opt{
+    color: #F5F5F5;
+    position: relative;
+    top: 95px;
+}
