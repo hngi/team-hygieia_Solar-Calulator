@@ -1,0 +1,28 @@
+{
+  "name": "team-hygieia_Solar-Calulator",
+  "version": "1.0.0",
+  "description": "Hygieia Solar Calculator is a web application that allows users to calculate how much solar power they need to run their homes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debelistic/team-hygieia_Solar-Calulator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/debelistic/team-hygieia_Solar-Calulator/issues"
+  },
+  "homepage": "https://github.com/debelistic/team-hygieia_Solar-Calulator#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
