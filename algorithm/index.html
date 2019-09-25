@@ -10,25 +10,29 @@
 <body>
 
   <form action="#" id="form">
-    <input type="text" name="productbywatts" id="product">
-    <button type="submit">Submit</button>
+    <input type="number" name="productbywatts" id="product">
+    <button id="sub" type="submit">Submit</button>
   </form>
 
 
-  <form action="#" id="byAmpsVolts" style="display: none">
-    <input type="text" name="productsVolts" id="product">
-    <input type="text" name="productsAmps" id="product">
-    <button type="submit" value="submit">Submit</button>
+  <form action="#" id="byAmpsVolts">
+    <input type="number" name="productsVolts" id="ampsproduct">
+    <input type="number" name="productsAmps" id="voltsproduct">
+    <button id="ampsub" type="submit" value="submit">Submit</button>
   </form>
 
-  <input type="button" value="Calulate by apms and volts" id="calByAmpsVolts">
+  <input type="button" value="Calulate By Apms and Volts" id="calByAmpsVolts">
 
 
-  <div id="warning"></div>
+  <div id="warning">
+      <p id="feedb"></p>
+  </div>
 
   <h3 id="total">
 
   </h3>
-  <script src="index.js"></script>
+  <script src="jquery-3.4.1.min.js"></script>
+  <script src="jindex.js"></script>
+  <script src="indx.js"></script>
 </body>
 </html>
