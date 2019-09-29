@@ -10,12 +10,12 @@ Users enter details of their electronic appliances and Hygieia app calculates ho
 * Clone repository `git clone https://github.com/hngi/team-hygieia_Solar-Calulator.git`
 * Open `index.html` file in your browser
 * Calculate your power consumption
+* View hoster project [here](https://hygieiasolarapp.000webhostapp.com/)
 
 ## Built With
 * HTML
 * CSS
 * JavaScript
-* Bootstrap
 * Figma
 
 ## Screenshot
@@ -26,5 +26,7 @@ Users enter details of their electronic appliances and Hygieia app calculates ho
 * [Muritala Muideen](https://github.com/MuideenAM) - Front-end developer
 * [Osinaya Oludare](https://github.com/Hodre) - Front-end developer
 * [Victor Awotidebe](https://github.com/debilistic) - Front-end developer
+* [Adesiyan Divine](https://github.com/NabStacks1) - Front-end developer
 * Edima Inwang - UI/UX designer
 * [Segun Francis](https://github.com/segunfrancis) - UI/UX designer
+* [Saratu Mauzu Bello](https://github.com/Sarah-MB) - Contents
