@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hygieia Solar Calculator</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body onload="initialise()">
+        <header>
+            <h1>HYGIEIA</h1>
+            <nav>
+                <div class="menu home">
+                    <span><h2>Home</h2></span>
+                </div>
+                <div class="menu about">
+                    <h2>About</h2>
+                </div>
+                <div  class="menu team">
+                    <h2>Team</h2>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <form action="" method="POST">
+                <section id="data-input">
+                    <table>
+                        <thead>
+                            <th class="column1">Choose your Appliances</th>
+                            <th class="column2">Quantity</th>
+                            <th class="column3">Power (in kW)</th>
+                        </thead>
+                        <tbody>
+                            <tr>    
+                                <td class="column1">
+                                    <select class=" select appliance" id="appliance1">
+                                        <option  value="prompt">SELECT AN APPLIANCE</option>
+                                    </select>
+                                </td>
+                                <td class="column2">
+                                    <input type="number" class="input qty" id="quantity1">
+                                </td>
+                                <td class="column3">
+                                    <input type="text" class="input power" id="power1">
+                                </td>
+                            </tr>
+                            <tr>    
+                                <td class="column1">
+                                    <select class=" select appliance" id="appliance2">
+                                        <option  value="prompt">SELECT AN APPLIANCE</option>
+                                    </select>
+                                </td>
+                                <td class="column2">
+                                    <input type="number" class="input qty" id="quantity2">
+                                </td>
+                                <td class="column3">
+                                    <input type="text" class="input power" id="power2">
+                                </td>
+                            </tr>
+                            <tr>    
+                                <td class="column1">
+                                    <select class=" select appliance" id="appliance3">
+                                        <option  value="prompt">SELECT AN APPLIANCE</option>
+                                    </select>
+                                </td>
+                                <td class="column2">
+                                    <input type="number" class="input qty" id="quantity3">
+                                </td>
+                                <td class="column3">
+                                    <input type="text" class="input power" id="power3">
+                                </td>
+                            </tr>
+                            <tr>    
+                                <td class="column1">
+                                    <select class="select appliance" id="appliance4">
+                                        <option  value="prompt">SELECT AN APPLIANCE</option>
+                                    </select>
+                                </td>
+                                <td class="column2">
+                                    <input type="number" class="input qty" id="quantity4">
+                                </td>
+                                <td class="column3">
+                                    <input type="text" class="input power" id="power4">
+                                </td>
+                            </tr>
+                            <tr>    
+                                <td class="column1">
+                                    <select class="select appliance" id="appliance5">
+                                        <option  value="prompt">SELECT AN APPLIANCE</option>
+                                    </select>
+                                </td>
+                                <td class="column2">
+                                    <input type="number" class="input qty" id="quantity5">
+                                </td>
+                                <td class="column3">
+                                    <input type="text" class="input power" id="power5">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button type="button" id="add" name="add">Add Device</button>
+                </section>
+
+                <section id="data-submission">
+                    <h3>HYGIEIA<br>SOLAR CALCULATOR</h3>
+                    <br><br>
+                    <p>Find out how much energy<br>you are consuming</p>
+                    <br><br><br><br>
+                    <button type="button" id="total">Total Consumption</button>
+                </section>
+            </form>
+            
+            <div id="output">hello</div>
+        </main>
+
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

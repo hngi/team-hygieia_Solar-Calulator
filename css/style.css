@@ -1,0 +1,191 @@
+* {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #87ceeb;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/Solar-copy.png");
+}
+
+
+header {
+    margin-top: 0;
+	width: 100%;
+	display: flex;
+	color: white;
+	flex-direction: row;
+	justify-content: space-between;
+    margin-bottom: 150px;
+    background-color: #777777;
+    border: 0;
+}
+
+header > nav
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-right: 60px;    
+}
+
+header > nav > div
+{
+	display: block;
+	padding: 0 20px;
+	cursor: pointer;
+    transition: 0.4s ease-out;
+    align-content: center;
+    height: 95%;
+    line-height: 95%;
+    text-align: center;
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+header > nav > div:hover
+{
+    transform: scale(1.05);
+    display: block;
+	text-decoration-color: rgb(200, 200, 200);
+    color: rgb(200, 200, 200);
+    background-color: darkgray;
+}
+
+h2
+{
+	font-weight: bolder;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+h1 {
+    vertical-align: middle;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 150px;
+    font-weight:  bolder;
+    font-size: 30px;
+    color: #00ff00;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+#data-input {
+    margin-left: 100px;
+    width: 45%;
+    display: absolute;
+    float: left;
+    height: 370px;
+}
+
+table {
+    font-size: 2em;
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+
+.column1 {
+    width: 330px;   
+}
+
+.column2 {
+    width: 80px;
+}
+
+.column3 {
+    width: 60px;    
+}
+
+thead {
+    color: #ffffff;
+}
+
+.clicked {
+    display: block;
+    color: rgb(200, 200, 200);
+    background-color: darkgray;
+    border-bottom: 4px solid #00ff00;
+}
+
+.select {
+    font-size: 1em;
+    border-radius: 15px;
+    color: #cccccc;
+}
+
+.qty {
+    font-size: 1em;
+    border-radius: 15px;
+    color: #cccccc;
+    text-align: center;
+    width: 100px;
+}
+
+.power  {
+    font-size: 1em;
+    border-radius: 15px;
+    color: #cccccc;
+    text-align: center;
+    width: 80px;
+}
+
+#add {
+    width: 370px;
+    font-size: 1.5em;
+    border-radius: 15px;
+    background-color: #00ff00;
+    border-color: #00ff00;
+    padding: 5px;
+}
+
+#total {
+    width: 370px;
+    font-size: 1.5em;
+    border-radius: 15px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    padding: 5px;
+}
+
+#data-submission {
+    width: 40%;
+    display: relative;
+    float: right;
+    margin-top: 50px;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.6em;
+    color: #ffffff;
+}
+
+#output {
+    display: block;
+    clear: both;
+    width: 500px;
+    height: 50px;
+    font-size: 2em;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top:500px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-top: 10px;
+    visibility: hidden;
+}
