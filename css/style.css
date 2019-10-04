@@ -189,3 +189,23 @@ p {
     padding-top: 10px;
     visibility: hidden;
 }
+
+/* About Page style */
+.about-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -5%;
+    text-align: center;
+}
+
+.about-container h2 {
+    color: #00ff00;
+    font-size: 2em;
+    line-height: 2.5em;
+}
+
+.about-container p {
+    font-size: 1.1em;
+    color: #EEE;
+    line-height: 1.6em;
+}
