@@ -23,15 +23,15 @@ header {
     border: 0;
 }
 
-header > nav
+/*header > nav
 {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	margin-right: 60px;    
-}
+}*/
 
-header > nav > div
+/*header > nav > div
 {
 	display: block;
 	padding: 0 20px;
@@ -42,14 +42,14 @@ header > nav > div
     line-height: 95%;
     text-align: center;
 }
-
+*/
 span {
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
 }
 
-header > nav > div:hover
+header > nav > a.nav-link:hover
 {
     transform: scale(1.05);
     display: block;
@@ -190,6 +190,50 @@ p {
     visibility: hidden;
 }
 
+
+
+/*New css*/
+.nav-item{
+	width: 30%;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+nav{
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 0.5px;
+}
+a.nav-link{
+	font-weight: 500;
+	text-align: center;
+}
+a.nav-link:hover, .navbar-brand:hover{
+	color: #00ff00 !important;
+	background-color: #ffffff00;
+}
+.bg-dark{
+	height: 80px;
+}
+.navbar-brand{
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-left: 1em;
+}
+@media all and (max-width: 1000px) {
+	.bg-dark{
+		height: 250px;
+		background-color: transparent;87
+	}
+	.navbar-brand{
+		text-align: center;
+	}
+.nav-item{
+	text-align: center;
+	color: #ffffff;
+}
+}
+
 /* About Page style */
 .about-container {
     width: 80%;
@@ -209,3 +253,4 @@ p {
     color: #EEE;
     line-height: 1.6em;
 }
+

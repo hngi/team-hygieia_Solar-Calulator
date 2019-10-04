@@ -371,23 +371,23 @@ const loadAppliances = () => {
 	}
 };
 
-document.querySelector(".home").addEventListener("click", () => {
-	document.querySelector(".home").classList.add("clicked");
-	document.querySelector(".about").classList.remove("clicked");
-	document.querySelector(".team").classList.remove("clicked");
-},  false);
+// document.querySelector(".home").addEventListener("click", () => {
+// 	document.querySelector(".home").classList.add("clicked");
+// 	document.querySelector(".about").classList.remove("clicked");
+// 	document.querySelector(".team").classList.remove("clicked");
+// },  false);
 
-document.querySelector(".about").addEventListener("click", () => {
-	document.querySelector(".home").classList.remove("clicked");
-	document.querySelector(".about").classList.add("clicked");
-	document.querySelector(".team").classList.remove("clicked");
-}, false);
+// document.querySelector(".about").addEventListener("click", () => {
+// 	document.querySelector(".home").classList.remove("clicked");
+// 	document.querySelector(".about").classList.add("clicked");
+// 	document.querySelector(".team").classList.remove("clicked");
+// }, false);
 
-document.querySelector(".team").addEventListener("click", () => {
-	document.querySelector(".home").classList.remove("clicked");
-	document.querySelector(".about").classList.remove("clicked");
-	document.querySelector(".team").classList.add("clicked");
-}, false);
+// document.querySelector(".team").addEventListener("click", () => {
+// 	document.querySelector(".home").classList.remove("clicked");
+// 	document.querySelector(".about").classList.remove("clicked");
+// 	document.querySelector(".team").classList.add("clicked");
+// }, false);
 
 document.querySelector("#total").addEventListener("click", () => {
 	let total = 0;
