@@ -191,6 +191,7 @@ p {
 }
 
 
+
 /*New css*/
 .nav-item{
 	width: 30%;
@@ -232,3 +233,24 @@ a.nav-link:hover, .navbar-brand:hover{
 	color: #ffffff;
 }
 }
+
+/* About Page style */
+.about-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -5%;
+    text-align: center;
+}
+
+.about-container h2 {
+    color: #00ff00;
+    font-size: 2em;
+    line-height: 2.5em;
+}
+
+.about-container p {
+    font-size: 1.1em;
+    color: #EEE;
+    line-height: 1.6em;
+}
+
