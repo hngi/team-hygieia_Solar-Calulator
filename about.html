@@ -1,30 +1,46 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Hygieia Solar Calculator</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hygieia Solar Calculator</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-</head>
+            <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+            <script type="text/javascript" src="js/popper.min.js"></script>
+            <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+    <body onload="initialise()">
+        <header>
 
-<body>
-    <header>
-        <h1>HYGIEIA</h1>
-        <nav>
-            <div class="menu home" onclick="window.location='index.html'">
-                <span>
-                    <h2>Home</h2>
-                </span>
-            </div>
-            <div class="menu about">
-                <h2>About</h2>
-            </div>
-            <div class="menu team">
-                <h2>Team</h2>
-            </div>
-        </nav>
-    </header>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">Hygieia</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item home active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item about">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item team">
+        <a class="nav-link" href="#">Team</a>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+</nav>
+
+        </header>
 
     <div class="about-container">
         <h2>Hello, Amazing Human!</h1>
